@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Unlimited Color Change</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="../styles.css" />
+  <style>
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 60px;
+
+
+    }
+
+    nav a {
+      font-size: 20px;
+      text-decoration: none;
+      margin-top: 30px;
+      height: 60px;
+      border: 3px solid black;
+      display: flex;
+      align-items: center;
+      border-radius: 10px;
+      color: rgb(230, 24, 131);
+      background-color: rgb(254, 245, 235);
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 300px;
+    }
+
+    .container h1 {
+      font-size: 3.25rem;
+    }
+
+    .button {
+      display: flex;
+      justify-content: space-evenly;
+      height: 80px;
+      font-size: 20px;
+      margin-top: 30px;
+
+    }
+
+    #start,
+    #stop {
+      border: 3px solid black;
+      background-color: rgb(254, 245, 235);
+      color: rgb(230, 24, 131);
+      cursor: pointer;
+      margin: 15px;
+      font-size: 2rem;
+
+    }
+  </style>
+</head>
+
+<body style="background-color: #212121; color: #fff">
+  <nav>
+    <a target="_blank" href="https://www.linkedin.com/in/mohammad-imran-925782230/">#30DAYSCHALLENGE DAY-4</a>
+    <a target="_blank" href="https://www.instagram.com/m._.imran_404/">Instagram</a>
+  </nav>
+
+  <div class="container">
+    <h1>Start should change the Background color every second</h1>
+    <div class="button">
+      <button id="start" style="border-radius: 15px;">Start</button>
+      <button id="stop" style="border-radius: 15px">Stop</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
